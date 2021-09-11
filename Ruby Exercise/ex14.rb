@@ -1,23 +1,20 @@
 user_name = ARGV.first
-prompt = '.....'
+prompt = '> '
 
 puts "Hi #{user_name}."
 puts "I'd like to ask you a few questions."
 puts "Do you like me #{user_name}? "
 puts prompt
 likes = $stdin.gets.chomp
-puts prompt
 
 
 puts "Where do you live #{user_name}? "
 puts prompt
 lives = $stdin.gets.chomp
-puts prompt
 
 
 puts "What kind of computer do you have? ", prompt
 computer = $stdin.gets.chomp
-puts prompt
 
 
 puts """
